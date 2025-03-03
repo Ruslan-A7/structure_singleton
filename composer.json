@@ -1,0 +1,38 @@
+{
+    "name": "ra7/structure_singleton",
+    "description": "Singleton Interface and Trait",
+    "type": "library",
+    "keywords": [
+        "structure",
+        "singleton",
+        "objects",
+        "ra7-ofl",
+        "ra7",
+        "Ruslan_A7"
+    ],
+    "homepage": "https://dev.iuid.cc/projects/structure/singleton",
+    "license": "proprietary",
+    "_comment": [
+        "License: RA7 Open Free License"
+    ],
+    "authors": [
+        {
+            "name": "Ruslan_A7 (RA7)",
+            "homepage": "https://ra7.iuid.cc",
+            "role": "Founder, Developer"
+        }
+    ],
+    "support": {
+        "source": "https://github.com/Ruslan-A7/structure_singleton"
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {
+            "RA7\\Structure\\Singleton\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^8"
+    }
+}
