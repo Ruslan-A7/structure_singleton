@@ -1,6 +1,6 @@
 <?php
 
-namespace RA7\Structure\Singleton;
+namespace RA7\Framework\Structure\Singleton;
 
 /**
  * Singleton (trait) - реалізує функціонал Singleton для класу, що використовує цей трейт.
