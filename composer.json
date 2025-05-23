@@ -33,6 +33,8 @@
         }
     },
     "require": {
-        "php": "^8"
+        "php": "^8",
+        "ra7/system_enums": "*",
+        "ra7/system_exception": "*"
     }
 }
