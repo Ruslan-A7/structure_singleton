@@ -34,7 +34,7 @@ trait SingletonTrait {
             self::$instance = new self(... $args);
         } else {
             $message = self::class;
-            throw new SingletonErrorException("The class {$message} is defined as Singleton and has already been instantiated. Re-creation is not allowed!");
+            throw new SingletonErrorException("The class \"{$message}\" is defined as Singleton and has already been instantiated. Re-creation is not allowed!");
         }
     }
 
