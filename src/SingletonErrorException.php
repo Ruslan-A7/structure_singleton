@@ -23,7 +23,7 @@ class SingletonErrorException extends Exception {
     /**
      * Створити помилку сінглтону.
      *
-     * @param string $className назва класу, в якому виникла помилка сінглтону
+     * @param string $message опис помилки сінглтону
      * @param int $code код винятку
      * @param null|Throwable $previous попередній виняток (використовується для відстеження ланцюжків винятків)
      */
